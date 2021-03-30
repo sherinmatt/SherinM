@@ -1,4 +1,4 @@
-## Main Objective:
+# Main Objective:
   Designing Interactive Portfolio
 
 ## Technologies used:
