@@ -1,0 +1,152 @@
+/* stylesheet */
+
+/* body */
+body {
+
+    /* IMAGE ATTRIBUTION BELOW! */
+    /* Photo by <a href="https://stocksnap.io/author/naturesbeauty"> Nature's Beauty </a> from <a href="https://stocksnap.io">StockSnap</a>  */
+    
+    font-size: 19px;
+ 
+    font-family: sans-serif;
+    background-color:  rgb(176, 186, 245);
+    background-image: url("Resources/market_images/StockSnap_9KHPVIYZ1W.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height:100%;
+    margin: 0;
+    overflow: auto;
+
+}
+
+.navbar-light .navbar-brand{
+    color: rgb(96, 118, 243);
+
+}
+/* navbar */
+.navbar {
+    padding: 0;
+    background-color: rgb(154, 169, 250);
+    width: 100%;
+
+}
+/* navbar-brand: background-color : rgb(167, 179, 247);  */
+
+.navbar-brand {
+  
+    padding: 10px;
+    margin-left: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.navbar-collapse {
+    
+    position: absolute;
+    right: 4%;
+    font-size: small;
+
+}
+
+.nav-item {
+
+    font-weight: bolder;
+}
+
+.background-image {
+    /* background-image:url("Resources/market_images/StockSnap_ISBJMXABGQ.jpg"); */
+  
+    filter: blur(3px);
+}
+
+/* .container formatting */
+.container {
+
+    padding : .6em;
+    width: 90%;
+    margin: 35px auto;
+  
+
+}
+
+
+
+.buttons {
+
+    margin-bottom: .5em;
+}
+
+
+
+.text-left {
+
+    text-align: left;
+    color: rgb(96, 118, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.text-center {
+    color: rgb(96, 118, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+
+/* select p elements which are not intro */
+p:not(.intro){
+
+    text-align: justify;
+    color: rgb(14, 13, 13);
+
+}
+
+.main-image {
+    width: 46%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.thumbnail {
+    
+    margin: 29px auto;
+    width: 47%;
+}
+/* desktop screen  */
+.col-md-8{
+    background-color:  rgb(141, 113, 37);
+}
+
+/* small screen/desktop screen */
+.col-sm-12, .col-md-4 {
+    margin: 12px auto;
+    background-color:  rgba(250, 252, 252, 0.699);
+}
+
+
+div.col-sm-12.col-md-12 div.col-lg-6.col-sm-12 img{
+
+    width: 95%;
+}
+
+
+div.row div.col-lg-6.col-sm-12 img {
+    width: 100%;
+}
+
+/* small screen/desktop screen */
+div.col-sm-12.col-md-12 p {
+    font-size: medium;
+    color:black;
+}
+
+@media(max-width:480px){
+    .col-md-8 {
+        display:block;
+    }
+}
