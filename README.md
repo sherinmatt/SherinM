@@ -2,9 +2,9 @@
   Designing Interactive Portfolio
 
 ## Technologies used:
- * html
- * css
- * javascript
- * matplotlib python
+ * HTML
+ * CSS
+ * Javascript
+ * Matplotlib python
  
  
